@@ -1,0 +1,41 @@
+  h1{
+  color: #36CFFF;
+  font-size: 38px;
+  text-align: center
+  }
+  h1:hover{
+    color:greenyellow;
+    background:indianred;
+
+  }
+  p::first-letter{
+      color:indigo;
+  }
+
+  a{
+    color: #36CAAA;
+    font-size: 28px;
+  }
+
+  div > p{
+      color: blue;
+      font-size: 28px;
+      
+  }
+  div + p{
+      color: cornflowerblue;
+      font-size: 30px;
+      
+  }
+  div + p::first-letter{
+      color: gold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 38px; 
+  }
+
+  table {
+      color:indianred;
+  }
+  label{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  }
